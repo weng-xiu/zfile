@@ -18,6 +18,7 @@ public class ZfileApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ZfileApplication.class, args);
+        System.out.println("ZFile 启动成功");
     }
 
 }
