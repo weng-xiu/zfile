@@ -7,6 +7,9 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+/**
+ * MyBatis 数据库别名配置, 用于在 Mapper 中根据不同数据库执行不同的 SQL 语句.
+ */
 @Component
 public class MyDatabaseIdProvider implements DatabaseIdProvider {
 

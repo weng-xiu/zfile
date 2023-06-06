@@ -52,6 +52,9 @@ import java.util.Optional;
 import static org.springframework.util.MimeTypeUtils.*;
 import static springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.*;
 
+/**
+ * Swagger 2控制器Web Flux
+ */
 @RestController
 @ApiIgnore
 @ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.REACTIVE)

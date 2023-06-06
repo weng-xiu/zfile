@@ -8,6 +8,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 
 /**
+ * 启动类
  * @author zhaojun
  */
 @SpringBootApplication
@@ -18,7 +19,7 @@ public class ZfileApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ZfileApplication.class, args);
-        System.out.println("ZFile 启动成功");
+        System.out.println("ZFile 启动成功: http://localhost:8080/");
     }
 
 }
